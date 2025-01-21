@@ -1,4 +1,4 @@
-# MPDC：Multi-Perspective Modeling and Diffusion-Based Contrastive Learning for Next POI Recommendation
+# MPDC：Multi-Factor Driven Ideal Location Preferences for Next POI Recommendations
 ![overall](https://github.com/user-attachments/assets/8a48ea1c-3b9b-45e0-8be2-6a0172ff5ebd)
 This paper proposes a novel next POI recommendation method (**MPDC**) that leverages multi-perspective modeling of visit factors and diffusion-based contrastive learning. We mitigate non-subjective visit factors by leveraging bidirectional information from user sequences and designing a preference filter. Meanwhile, we integrate spatio-temporal information and build a spatial-aware hyperbolic graph module to consider users' subjective visit factors. Based on the generation capability of diffusion models, we develop a diffusion-based preference contrast module that generates latent ideal location preferences for users under different context conditions guided through a diffusion model. 
 
