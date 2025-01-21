@@ -9,7 +9,7 @@ This paper proposes a novel next POI recommendation method (**MPDC**) that lever
     pip install pytorch ==2.0.1
     pip install scipy==1.11.2
 
-Please refer to the **requirements.txt** for specific environmental requirements
+Please refer to the **requirements.txt** for specific environmental requirements.
 
 # Data
 
