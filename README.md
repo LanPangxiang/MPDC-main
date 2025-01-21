@@ -1,8 +1,8 @@
 # MPDC：Multi-Factor Driven Ideal Location Preferences for Next POI Recommendations
-![overall](https://github.com/user-attachments/assets/8a48ea1c-3b9b-45e0-8be2-6a0172ff5ebd)
+
 This paper proposes a novel next POI recommendation method (**MPDC**) that leverages multi-perspective modeling of visit factors and diffusion-based contrastive learning. We mitigate non-subjective visit factors by leveraging bidirectional information from user sequences and designing a preference filter. Meanwhile, we integrate spatio-temporal information and build a spatial-aware hyperbolic graph module to consider users' subjective visit factors. Based on the generation capability of diffusion models, we develop a diffusion-based preference contrast module that generates latent ideal location preferences for users under different context conditions guided through a diffusion model. 
 
-## ![08C9DD45](https://github.com/user-attachments/assets/818a9e82-4e2f-41d4-9114-d4b40d234748) Environment
+# Environment
     pip install python==3.11.4
     pip install torch-geometric == 2.5.3
     pip install numpy==1.24.0
@@ -11,7 +11,7 @@ This paper proposes a novel next POI recommendation method (**MPDC**) that lever
 
 Please refer to the **requirements.txt** for specific environmental requirements
 
-## ![08C9A637](https://github.com/user-attachments/assets/784774be-f010-4036-9615-45ea7ec6dfd9) Data
+# Data
 
 
 | Dataset | User | POI | Check-ins| Avg.Visit| Density|
@@ -27,7 +27,7 @@ Please refer to the **requirements.txt** for specific environmental requirements
 * For the raw data processing, we follow the Diff-POI data processing method.
 * Due to the large file limit of GitHub, we cannot directly upload processed data of other dataset. We will update all of them in other link for more convenience after acceptance.
 
-## ![08CA15E9](https://github.com/user-attachments/assets/772c218c-8b28-4b6f-a8de-fcee58c1bf25) Running
+# Running
 
 You can run this code on the uploaded LA dataset:
 
